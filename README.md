@@ -1,4 +1,4 @@
-# raspi-dual-mpv
+# RASPBERRY PI VIDEO LAUNCH AFTER BOOT
 
 Sistem Raspberry Pi dual HDMI dengan 1 MPV untuk video gabungan 2560x720.
 
