@@ -1,4 +1,4 @@
-# RASPBERRY PI VIDEO LAUNCH AFTER BOOT
+# RASPBERRY PI VIDEO BOOT With REMOTE
 
 Sistem Raspberry Pi dual HDMI dengan 1 MPV untuk video gabungan 2560x720.
 
@@ -24,7 +24,7 @@ Letakkan file berikut di `/boot/firmware/splash/`:
 ```
 
 ## Format video yang disarankan
-
+- Buat video berukuran 2 monitor 
 - Resolusi: 2560x720
 - FPS: 30 fps constant
 - Codec: H.264
