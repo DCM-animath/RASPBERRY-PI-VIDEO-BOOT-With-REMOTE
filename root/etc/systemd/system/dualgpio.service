@@ -1,0 +1,13 @@
+[Unit]
+Description=GPIO switcher for single MPV
+After=dualmp4.service
+Requires=dualmp4.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /boot/firmware/splash/gpio_switch.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

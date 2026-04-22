@@ -1,0 +1,9 @@
+[Unit]
+Description=Unused old MPV sync service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/true
+
+[Install]
+WantedBy=multi-user.target

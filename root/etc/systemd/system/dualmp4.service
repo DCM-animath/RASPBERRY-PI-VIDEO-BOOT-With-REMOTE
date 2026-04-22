@@ -1,0 +1,17 @@
+[Unit]
+Description=Single MPV Combined 2560x720
+After=systemd-user-sessions.service
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/boot/firmware/splash
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=WAYLAND_DISPLAY=wayland-0
+ExecStart=/bin/bash /boot/firmware/splash/start_dual.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
